@@ -23,7 +23,8 @@ class Complex{
 int main()
 {
     Complex com1,com2,res;
-    
+    com1.input();
+    com2.input();
     res=com1+com2;
     res.display();
     return 0;
